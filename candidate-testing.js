@@ -57,10 +57,11 @@ if (candidateAnswers[3]===correctAnswers[3])
 
 
 if (grade>=85){
+  console.log(">>>Overall Grade:"+grade+"%"+"<<<")
 console.log("Your Passed,Excellent");
 }
 else {
-  console.log("Failed");
+  console.log(">>> Status: FAILED <<<");
 }
   return grade;
 }
